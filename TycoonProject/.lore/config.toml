@@ -1,0 +1,15 @@
+remote_url = "lores://urc-uefn.live.ucs.on.epicgames.com"
+identity = "019c2ee584ca7ac899ce3c3604d003f6"
+
+[store]
+max_capacity = 2000000
+eviction_delay = 30
+max_size = 10737418240
+compaction_delay = 50
+
+[file]
+direct_write = false
+flush_write = false
+
+[vfs]
+vfs_type = "None"
